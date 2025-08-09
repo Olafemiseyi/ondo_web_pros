@@ -411,13 +411,12 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="form-wrapper">
-                    <!-- The form tag has been simplified for Netlify Forms -->
+                    <!-- The form tag has been corrected and the custom class removed. -->
                     <form name="contact-form" method="POST" action="/success.html" data-netlify="true" data-netlify-honeypot="bot-field">
                         <!-- This hidden input is for Netlify's spam bot protection -->
                         <p hidden="">
                             <label>Don’t fill this out: <input name="bot-field"></label>
                         </p>
-                        
                         <div class="row">
                             <div class="col-lg-4 form-group" style="padding-top:5px;padding-bottom:5px;">
                                 <div class="input-group"><span class="input-group-text input-group-text"><i class="bi bi-person"></i></span><input class="form-control form-control" type="text" name="name" placeholder="Your name*" required=""></div>
@@ -433,17 +432,7 @@
                             <div class="col-lg-12 form-group">
                                 <div class="input-group"><span class="input-group-text input-group-text"><i class="bi bi-chat-dots"></i></span><textarea class="form-control form-control" name="message" placeholder="Write a message*" required="" rows="6"></textarea></div>
                             </div>
-                        </div>
-                        
-                        <!-- These divs are no longer needed -->
-                        <!--
-                        <div class="my-3">
-                            <div class="loading"><span>Loading</span></div>
-                            <div class="error-message"></div>
-                            <div class="sent-message"><span>Your message has been sent. Thank you!</span></div>
-                        </div>
-                        -->
-                        
+                        </div></br>
                         <div class="text-center"><button class="btn btn-primary" type="submit">Submit Message</button></div>
                     </form>
                 </div>
